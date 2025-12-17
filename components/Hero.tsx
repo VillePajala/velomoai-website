@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="pt-28 pb-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
         <Image
-          src="/logos/velomoai_company-logo.png"
+          src="/logos/velomoai_company-logo-transparent.png"
           alt="Velomo AI - AI Powered"
           width={280}
           height={280}

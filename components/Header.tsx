@@ -6,7 +6,7 @@ export default function Header() {
       <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2">
           <Image
-            src="/logos/velomoai_company-logo.png"
+            src="/logos/velomoai_company-logo-transparent.png"
             alt="Velomo AI"
             width={140}
             height={40}
