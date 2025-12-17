@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="pt-28 pb-20 px-4">
+    <section className="pt-28 pb-20 px-4 bg-gradient-to-b from-white via-cyan-50/30 to-gray-100">
       <div className="max-w-4xl mx-auto text-center">
         <Image
           src="/logos/velomoai_company-logo-transparent.png"

@@ -30,11 +30,11 @@ export default function ProductCard({
       )}
       {!tagline && <div className="mb-4" />}
       {images && images.length > 0 && (
-        <div className="flex gap-4 mb-8 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center items-center">
           {images.map((src, i) => (
             <div
               key={i}
-              className="relative w-1/3 aspect-[3/5] rounded-lg overflow-hidden shadow-lg ring-1 ring-slate-700"
+              className="relative w-2/3 sm:w-1/3 aspect-[3/5] rounded-lg overflow-hidden shadow-lg ring-1 ring-slate-700"
             >
               <Image
                 src={src}
