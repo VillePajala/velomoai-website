@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -7,21 +7,27 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+  weight: ["600", "700", "800"],
+});
+
 export const metadata: Metadata = {
-  title: "Velomo AI - Building tools for coaches",
+  title: "Velomo AI - Building software using modern AI tools",
   description:
-    "Velomo AI creates privacy-focused software for coaches and athletes. Our flagship product MatchOps helps soccer coaches track games, manage rosters, and plan tactics.",
+    "Velomo AI develops software by leveraging modern AI tools. We focus on practical, buildable solutions—small, focused software systems built end-to-end.",
   keywords: [
     "Velomo AI",
+    "AI software development",
     "MatchOps",
-    "soccer coaching",
-    "sports software",
-    "coaching tools",
+    "AI-assisted development",
+    "rapid prototyping",
   ],
   authors: [{ name: "Velomo AI" }],
   openGraph: {
     title: "Velomo AI",
-    description: "Building tools for coaches and athletes",
+    description: "Building software using modern AI tools",
     url: "https://velomoai.com",
     siteName: "Velomo AI",
     locale: "en_US",
@@ -30,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Velomo AI",
-    description: "Building tools for coaches and athletes",
+    description: "Building software using modern AI tools",
   },
   robots: {
     index: true,
@@ -45,7 +51,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} antialiased`}>{children}</body>
+      <body className={`${geistSans.variable} ${montserrat.variable} antialiased`}>{children}</body>
     </html>
   );
 }
