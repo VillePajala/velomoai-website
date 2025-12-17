@@ -16,16 +16,16 @@ export default function About() {
             today—small, focused software systems built end-to-end.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <span className="px-4 py-2 bg-cyan-50 border border-cyan-200 rounded-full text-sm text-cyan-700">
+            <span className="px-4 py-2 bg-cyan-50 border border-cyan-200 rounded-full text-sm text-cyan-700 transition-all duration-300 hover:bg-cyan-100 hover:scale-105 cursor-default">
               AI-assisted development
             </span>
-            <span className="px-4 py-2 bg-emerald-50 border border-emerald-200 rounded-full text-sm text-emerald-700">
+            <span className="px-4 py-2 bg-emerald-50 border border-emerald-200 rounded-full text-sm text-emerald-700 transition-all duration-300 hover:bg-emerald-100 hover:scale-105 cursor-default">
               Rapid prototyping
             </span>
-            <span className="px-4 py-2 bg-cyan-50 border border-cyan-200 rounded-full text-sm text-cyan-700">
+            <span className="px-4 py-2 bg-cyan-50 border border-cyan-200 rounded-full text-sm text-cyan-700 transition-all duration-300 hover:bg-cyan-100 hover:scale-105 cursor-default">
               Internal tools
             </span>
-            <span className="px-4 py-2 bg-emerald-50 border border-emerald-200 rounded-full text-sm text-emerald-700">
+            <span className="px-4 py-2 bg-emerald-50 border border-emerald-200 rounded-full text-sm text-emerald-700 transition-all duration-300 hover:bg-emerald-100 hover:scale-105 cursor-default">
               End-to-end systems
             </span>
           </div>

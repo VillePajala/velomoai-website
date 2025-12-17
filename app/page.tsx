@@ -1,8 +1,12 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Stats from "@/components/Stats";
 import About from "@/components/About";
 import ProductCard from "@/components/ProductCard";
+import ContactCTA from "@/components/ContactCTA";
 import Footer from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
+import WaveDivider from "@/components/WaveDivider";
 
 export default function Home() {
   return (
@@ -10,7 +14,10 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <WaveDivider color="#ffffff" />
+        <Stats />
         <About />
+        <WaveDivider color="#f3f4f6" flip />
         <section className="py-20 px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl font-bold mb-8 text-center text-gray-800 font-[family-name:var(--font-montserrat)]">
@@ -37,8 +44,10 @@ export default function Home() {
             />
           </div>
         </section>
+        <ContactCTA />
       </main>
       <Footer />
+      <BackToTop />
     </div>
   );
 }
