@@ -2,13 +2,9 @@ export default function ContactCTA() {
   return (
     <section className="py-20 px-4 bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 font-[family-name:var(--font-montserrat)]">
-          Interested in working together?
+        <h2 className="text-2xl md:text-3xl font-bold text-white mb-8 font-[family-name:var(--font-montserrat)]">
+          Have any questions about Velomo AI or our products?
         </h2>
-        <p className="text-slate-300 mb-8 max-w-xl mx-auto">
-          Whether you have a project in mind or just want to chat about AI-powered development,
-          we&apos;d love to hear from you.
-        </p>
         <a
           href="mailto:hello@velomoai.com"
           className="inline-flex items-center gap-2 bg-[#00a0d2] hover:bg-[#0090c0] text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 hover:scale-105 text-lg"
