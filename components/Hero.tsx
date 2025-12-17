@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl" />
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <div className="animate-float">
+        <div className="animate-fade-in-up">
           <Image
             src="/logos/velomoai_company-logo-transparent.png"
             alt="Velomo AI - AI Powered"
